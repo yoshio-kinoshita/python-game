@@ -13,5 +13,8 @@ print(sorted(s, reverse=True))
 # 内包表記
 # [式 for 要素名 in リスト]
 
-print([x * 2 for x in [1, 2, 3,4]])
+print([x * 2 for x in [1, 2, 3, 4]])
 print([x**2 for x in range(5)])
+print([[x, x + 1, x + 2] for x in [1, 2, 3]])
+
+print([[0 for x in range(3)] for y in range(4)])
