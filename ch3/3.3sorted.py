@@ -17,4 +17,6 @@ print([x * 2 for x in [1, 2, 3, 4]])
 print([x**2 for x in range(5)])
 print([[x, x + 1, x + 2] for x in [1, 2, 3]])
 
-print([[0 for x in range(3)] for y in range(4)])
+print([[0 for _ in range(3)] for _ in range(4)])
+
+print([x for x in range(6) if x%2 == 0])
